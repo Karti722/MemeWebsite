@@ -33,3 +33,4 @@ getMemeBtn.addEventListener("click", function () {
     document.body.style.backgroundImage = "url('background-images/app-background" + randomNum + ".png')";
 });
 window.addEventListener("load", getMeme);
+error
