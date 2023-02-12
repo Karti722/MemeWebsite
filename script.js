@@ -1,4 +1,4 @@
-document.body.style.backgroundImage = "url('background-images/app-background" + Math.round(Math.random()) % 2 + ".png')";
+let randomNum = Math.round(Math.random()) % 2;
 let meme = document.getElementById("meme");
 let title = document.getElementById("title");
 let getMemeBtn = document.getElementById("get-meme-btn");
@@ -32,4 +32,3 @@ getMemeBtn.addEventListener("click", function () {
     randomNum = Math.round(Math.random());
     document.body.style.backgroundImage = "url('background-images/app-background" + randomNum + ".png')";
 });
-window.addEventListener("load", getMeme);
