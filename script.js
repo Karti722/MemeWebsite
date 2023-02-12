@@ -1,4 +1,4 @@
-let randomNum = Math.round(Math.random());
+let randomNum = Math.round(Math.random()) % 2;
 document.body.style.backgroundImage = "url('background-images/app-background" + randomNum + ".png')";
 
 let meme = document.getElementById("meme");
